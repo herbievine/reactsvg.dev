@@ -56,6 +56,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html>
       <head>
         <Meta />
+        <script
+          async
+          defer
+          data-domain="reactsvg.dev"
+          src="https://penkle.com/scripts/penkle.min.js"
+        ></script>
       </head>
       <body>
         {children}
